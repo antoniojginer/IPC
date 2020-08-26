@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Entrega2_IPC.jnlp">
+  <information>
+    <title>Entrega2_IPC</title>
+    <vendor>Antonio Jose</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Entrega2_IPC.jar" size="559625" download="eager" />
+    <jar href="lib\AccesoBD.jar" size="12323" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Entrega2_IPC" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="entrega2_ipc.Entrega2_IPC"  name="Entrega2_IPC" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="426.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega1.controladores.AñadirPacienteController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="83.0" layoutX="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../LOGO_DSIC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="47.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="47.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="102.13671875" />
+      <Text layoutX="47.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono" wrappingWidth="102.13671875" />
+      <Text layoutX="47.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI/ID" wrappingWidth="102.13671875" />
+      <Text layoutX="47.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos" wrappingWidth="102.13671875" />
+      <TextField fx:id="nombrePaciente" layoutX="173.0" layoutY="197.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="apellidosPaciente" layoutX="173.0" layoutY="234.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="dniPaciente" layoutX="173.0" layoutY="272.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="telefonoPaciente" layoutX="173.0" layoutY="309.0" prefHeight="25.0" prefWidth="184.0" />
+      <Button fx:id="aceptarPaciente" disable="true" layoutX="237.0" layoutY="377.0" mnemonicParsing="false" onAction="#AceptarPaciente" text="Aceptar" />
+      <Button fx:id="cancelarPaciente" defaultButton="true" layoutX="295.0" layoutY="377.0" mnemonicParsing="false" onAction="#CancelarPaciente" text="Cancelar" />
+      <Button layoutX="258.0" layoutY="150.0" mnemonicParsing="false" text="Añadir imagen" underline="true" />
+   </children>
+</AnchorPane>

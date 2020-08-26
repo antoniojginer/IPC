@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega2_ipc.NuevaSesionTipoController">
+   <children>
+      <Text layoutX="253.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Código:" />
+      <Text layoutX="145.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Número de ejercicios:" />
+      <Text layoutX="148.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Número de circuitos:" />
+      <Text layoutX="148.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo por ejercicio:" />
+      <Text layoutX="24.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de descanso entre ejercicios:" />
+      <Text layoutX="30.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de descanso entre circuitos:" />
+      <Text layoutX="108.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de calentamiento:" />
+      <TextField fx:id="codigo" layoutX="337.0" layoutY="73.0" promptText="Identificador de la sesión" />
+      <TextField fx:id="nEjercicios" layoutX="337.0" layoutY="105.0" promptText="Solo números" />
+      <TextField fx:id="nCircuitos" layoutX="337.0" layoutY="138.0" promptText="Solo números" />
+      <TextField fx:id="tEjercicio" layoutX="337.0" layoutY="171.0" promptText="En segundos" />
+      <TextField fx:id="tDesE" layoutX="337.0" layoutY="202.0" promptText="En segundos" />
+      <TextField fx:id="tDesC" layoutX="337.0" layoutY="233.0" promptText="En segundos" />
+      <TextField fx:id="tCalentamiento" layoutX="337.0" layoutY="264.0" promptText="En segundos" />
+      <Text layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulos" text="Nueva sesión tipo:" />
+      <Button fx:id="cancelar" layoutX="486.0" layoutY="338.0" mnemonicParsing="false" onAction="#Cancelar" styleClass="grupo" text="Cancelar" />
+      <Button fx:id="aceptar" layoutX="387.0" layoutY="338.0" mnemonicParsing="false" onAction="#Aceptar" styleClass="grupo" text="Aceptar" />
+      <Text fx:id="error" fill="RED" layoutX="30.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="318.13671875" AnchorPane.bottomAnchor="78.0" AnchorPane.leftAnchor="30.0" />
+   </children>
+</AnchorPane>

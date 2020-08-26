@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega1.controladores.AñadirMedicoController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="83.0" layoutX="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../LOGO_DSIC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="37.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sala asignada" wrappingWidth="102.13671875" />
+      <Text layoutX="235.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de fin" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de inicio" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Días de consulta" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI/ID" wrappingWidth="102.13671875" />
+      <Text layoutX="37.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos" wrappingWidth="102.13671875" />
+      <TextField fx:id="nombreMedico" layoutX="163.0" layoutY="187.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="apellidoMedico" layoutX="163.0" layoutY="224.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="dniMedico" layoutX="163.0" layoutY="262.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField fx:id="telefonoMedico" layoutX="163.0" layoutY="299.0" prefHeight="25.0" prefWidth="184.0" />
+      <CheckBox fx:id="lunesBox" layoutX="163.0" layoutY="341.0" mnemonicParsing="false" text="L" />
+      <CheckBox fx:id="viernesBox" layoutX="322.0" layoutY="341.0" mnemonicParsing="false" text="V" />
+      <CheckBox fx:id="juevesBox" layoutX="286.0" layoutY="341.0" mnemonicParsing="false" text="J" />
+      <CheckBox fx:id="miercolesBox" layoutX="245.0" layoutY="341.0" mnemonicParsing="false" text="X" />
+      <CheckBox fx:id="martesBox" layoutX="202.0" layoutY="341.0" mnemonicParsing="false" text="M" />
+      <TextField fx:id="inicioHora" layoutX="129.0" layoutY="372.0" prefHeight="25.0" prefWidth="29.0" />
+      <TextField fx:id="finHora" layoutX="303.0" layoutY="372.0" prefHeight="25.0" prefWidth="29.0" />
+      <TextField fx:id="salaMedico" layoutX="129.0" layoutY="411.0" prefHeight="25.0" prefWidth="39.0" />
+      <Button fx:id="aceptarMedico" disable="true" layoutX="209.0" layoutY="506.0" mnemonicParsing="false" onAction="#AceptarMedico" text="Aceptar" />
+      <Button fx:id="cancelarMedico" defaultButton="true" layoutX="281.0" layoutY="506.0" mnemonicParsing="false" onAction="#CancelarMedico" text="Cancelar" />
+      <Button layoutX="248.0" layoutY="140.0" mnemonicParsing="false" text="Añadir imagen" underline="true" />
+      <Text layoutX="167.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" />
+      <TextField fx:id="minutosInicio" layoutX="176.0" layoutY="372.0" prefHeight="25.0" prefWidth="29.0" />
+      <Text layoutX="336.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" />
+      <TextField fx:id="minutosFin" layoutX="343.0" layoutY="372.0" prefHeight="25.0" prefWidth="29.0" />
+   </children>
+</AnchorPane>

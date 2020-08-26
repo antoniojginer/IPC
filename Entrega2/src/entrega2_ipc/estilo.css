@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-jun-2019, 18:36:45
+    Author     : Antonio Jose
+*/
+
+
+.titulos{
+    -fx-font-size: 36px;
+    -fx-fill: white;    
+}
+
+.root{
+    -fx-background-color: black;
+}
+
+.go{
+    -fx-background-color: beige;
+    -fx-font-size: 40px;  
+    -fx-cursor: hand;
+}
+.go:hover{
+    -fx-background-color: cornflowerblue;
+    
+}
+
+.grupo{
+    -fx-background-color: beige;
+    -fx-font-size: 16px;   
+    -fx-cursor: hand;
+}
+.grupo:hover{
+    -fx-background-color: cornflowerblue;    
+}
+
+.sesion{    
+    -fx-background-color: beige;
+    -fx-font-size: 22px;
+    -fx-cursor: hand;
+}
+.sesion:hover{
+    -fx-background-color: cornflowerblue;
+    
+}
+
+.salir{ 
+    -fx-background-image: url('/fotos/icons8-salida-26.png');
+    -fx-background-color: beige;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+}
+.salir:hover{
+    -fx-background-color: cornflowerblue;
+    
+}
+
+.guardar{
+    -fx-background-image: url('/fotos/icons8-guardar-26.png');
+    -fx-background-color: beige;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+}
+.guardar:hover{
+    -fx-background-color: cornflowerblue;
+    
+}
+
+.sesionText{
+    -fx-font-size: 20px;
+    -fx-fill: white;   
+}
+
+.formulario{
+    -fx-font-size: 18px;
+    -fx-fill: white;       
+}
+
+.reloj{
+    -fx-font-size: 70px;
+    -fx-fill: white; 
+}
+
+.play{
+    -fx-background-image: url('/fotos/play.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+    -fx-background-radius:50px;
+    -fx-background-border:50px;
+    -fx-cursor: hand;
+}
+
+.pause{
+    -fx-background-image: url('/fotos/pause.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+    -fx-background-radius:50px;
+    -fx-background-border:50px;
+    -fx-cursor: hand;    
+}
+
+.siguiente{
+    -fx-background-image: url('/fotos/siguiente.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+    -fx-background-radius:50px;
+    -fx-background-border:50px;
+    -fx-cursor: hand;
+    
+}
+.stop{
+    -fx-background-image: url('/fotos/stop.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+    -fx-background-radius:50px;
+    -fx-background-border:50px;
+    -fx-cursor: hand;
+    
+}
+.play:hover{
+    -fx-background-color: cornflowerblue;    
+    
+}
+.pause:hover{
+    -fx-background-color: cornflowerblue;    
+    
+}
+.siguiente:hover{
+    -fx-background-color: cornflowerblue;    
+    
+}
+.stop:hover{
+    -fx-background-color: cornflowerblue;    
+    
+}
+.play:pressed{
+    -fx-background-color: black;    
+    
+}
+.pause:pressed{
+    -fx-background-color: black;    
+    
+}
+.siguiente:pressed{
+    -fx-background-color: black;    
+    
+}
+.stop:pressed{
+    -fx-background-color: black;    
+    
+}
+.home{
+    -fx-background-image: url('/fotos/home.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40px;
+    -fx-background-radius:40px;
+    -fx-background-border:40px;
+    -fx-cursor: hand;
+    
+}
+.home:hover{
+    -fx-background-color: cornflowerblue;    
+    
+}
+.home:pressed{
+    -fx-background-color: black;    
+    
+}
+

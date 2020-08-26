@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega1.interfaces.MostrarPacienteController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="83.0" layoutX="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../LOGO_DSIC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="67.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="250.1367151737213" />
+      <Text layoutX="67.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TELÉFONO: " wrappingWidth="250.13671875" />
+      <Text layoutX="67.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI/ID: " wrappingWidth="250.1367151737213" />
+      <Text layoutX="67.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos: " wrappingWidth="250.1367151737213" />
+      <Button defaultButton="true" layoutX="256.0" layoutY="362.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>

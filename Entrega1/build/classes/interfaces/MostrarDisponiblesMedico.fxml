@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="437.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="entrega1.controladores.MostrarDisponiblesMedicoController">
+   <children>
+      <ListView fx:id="listaMedicos" layoutX="61.0" layoutY="99.0" prefHeight="218.0" prefWidth="322.0" />
+      <Button fx:id="seleccionarMedico" disable="true" layoutX="222.0" layoutY="354.0" mnemonicParsing="false" onAction="#SeleccionarPaciente" text="Seleccionar" />
+      <Button fx:id="cancelarMedico" defaultButton="true" layoutX="311.0" layoutY="354.0" mnemonicParsing="false" onAction="#CancelarPaciente" text="Cancelar" />
+      <Text layoutX="71.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar:" wrappingWidth="109.1875" />
+      <TextField fx:id="buscarMedico" layoutX="155.0" layoutY="62.0" prefHeight="25.0" prefWidth="198.0" />
+   </children>
+</AnchorPane>

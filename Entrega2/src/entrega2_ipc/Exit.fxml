@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="104.0" prefWidth="273.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="entrega2_ipc.ExitController">
+   <children>
+      <Text layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta seguro que desea salir sin guardar la actividad?" wrappingWidth="217.796875" AnchorPane.bottomAnchor="52.8173828125" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="41.203125" AnchorPane.topAnchor="13.9404296875">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="guardar" defaultButton="true" layoutX="157.0" layoutY="63.0" mnemonicParsing="false" onAction="#Guardar" prefHeight="25.0" prefWidth="98.0" text="Guardar y salir" AnchorPane.bottomAnchor="16.0" AnchorPane.rightAnchor="18.0" />
+      <Button fx:id="no" layoutX="101.0" layoutY="63.0" mnemonicParsing="false" onAction="#No" prefHeight="25.0" prefWidth="43.0" text="No" AnchorPane.bottomAnchor="16.0" AnchorPane.rightAnchor="129.0" />
+      <Button fx:id="si" layoutX="46.0" layoutY="63.0" mnemonicParsing="false" onAction="#Si" prefHeight="25.0" prefWidth="43.0" text="Si" AnchorPane.bottomAnchor="16.0" AnchorPane.rightAnchor="184.0" />
+   </children>
+</AnchorPane>

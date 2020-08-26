@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="373.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="entrega1.controladores.MostrarMedicoController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="83.0" layoutX="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../LOGO_DSIC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="29.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="47.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="199.99999701976776" />
+      <Text layoutX="47.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sala asignada: " wrappingWidth="123.13671708106995" />
+      <Text layoutX="245.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de fin: " wrappingWidth="113.13671875" />
+      <Text layoutX="47.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de inicio: " wrappingWidth="123.13671875" />
+      <Text layoutX="47.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Días de consulta: " wrappingWidth="199.9999850988388" />
+      <Text layoutX="47.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono: " wrappingWidth="199.99998807907104" />
+      <Text layoutX="47.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI/ID: " wrappingWidth="199.99999105930328" />
+      <Text layoutX="47.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos: " wrappingWidth="199.99999403953552" />
+      <Button defaultButton="true" layoutX="271.0" layoutY="449.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>

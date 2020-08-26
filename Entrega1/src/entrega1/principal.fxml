@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega1.controladores.PrincipalController">
+   <children>
+      <ListView fx:id="listaCitas" layoutX="53.0" layoutY="177.0" prefHeight="414.0" prefWidth="776.0" />
+      <Text fontSmoothingType="LCD" layoutX="341.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CITAS" wrappingWidth="199.025390625">
+         <font>
+            <Font name="Microsoft JhengHei UI Light" size="72.0" />
+         </font>
+      </Text>
+      <Text fx:id="fechaText" layoutX="54.0" layoutY="608.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="JUSTIFY" wrappingWidth="148.13671875">
+         <font>
+            <Font name="Candara" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="359.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cita || Paciente || Doctor" wrappingWidth="161.0253915414214">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="13.0" />
+         </font></Text>
+      <ImageView fitHeight="116.0" fitWidth="173.0" layoutX="779.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../LOGO_DSIC.png" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-1.0" layoutY="2.0" prefHeight="25.0" prefWidth="882.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Agenda">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AñadirCita" text="Añadir" />
+                  <MenuItem fx:id="borrarCitas" disable="true" mnemonicParsing="false" onAction="#BorrarCita" text="Borrar" />
+                  <MenuItem fx:id="mostrarCitas" disable="true" mnemonicParsing="false" onAction="#MostrarCita" text="Mostrar" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Medicos">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#AñadirMedico" text="Añadir" />
+                  <MenuItem mnemonicParsing="false" onAction="#BorrarMedico" text="Borrar" />
+                  <MenuItem mnemonicParsing="false" onAction="#MostrarMedico" text="Mostrar" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Pacientes">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#AñadirPaciente" text="Añadir" />
+                  <MenuItem mnemonicParsing="false" onAction="#BorrarPaciente" text="Borrar" />
+                  <MenuItem mnemonicParsing="false" onAction="#MostrarPaciente" text="Mostrar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

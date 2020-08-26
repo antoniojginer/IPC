@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1005.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega2_ipc.GoController">
+   <top>
+      <AnchorPane prefHeight="63.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="sesion" layoutX="50.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulos" text="SESIÓN: " wrappingWidth="675.77734375" AnchorPane.topAnchor="14.0" />
+         </children></AnchorPane>
+   </top>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="imagen" fitHeight="307.0" fitWidth="507.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <Text fx:id="actualText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulos" textAlignment="CENTER" wrappingWidth="488.13671875" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Text fx:id="reloj" layoutX="137.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="reloj" text="00:00:00" wrappingWidth="263.41015625" />
+                  <Button fx:id="play" layoutX="178.0" layoutY="269.0" mnemonicParsing="false" onAction="#Play" prefHeight="76.0" prefWidth="73.0" styleClass="play" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="87.0" AnchorPane.rightAnchor="342.0" AnchorPane.topAnchor="269.0" />
+                  <Button fx:id="pause" layoutX="269.0" layoutY="269.0" mnemonicParsing="false" onAction="#Pause" prefHeight="76.0" prefWidth="73.0" styleClass="pause" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="269.0" />
+                  <Button fx:id="siguiente" layoutX="364.0" layoutY="269.0" mnemonicParsing="false" onAction="#Siguiente" prefHeight="76.0" prefWidth="73.0" styleClass="siguiente" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="269.0" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="269.0" />
+                  <Button fx:id="stop" layoutX="357.0" layoutY="269.0" mnemonicParsing="false" onAction="#Stop" prefHeight="76.0" prefWidth="73.0" styleClass="stop" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="357.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="269.0" />
+                  <Button fx:id="home" layoutX="415.0" layoutY="517.0" mnemonicParsing="false" onAction="#Home" prefHeight="76.0" prefWidth="73.0" styleClass="home" AnchorPane.bottomAnchor="21.0" AnchorPane.rightAnchor="14.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

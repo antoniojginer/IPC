@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="494.0" prefWidth="600.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entrega2_ipc.DescripcionController">
+   <children>
+      <Text fx:id="codigo" layoutX="283.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Código:" wrappingWidth="293.69921875" />
+      <Text fx:id="numeroEjercicios" layoutX="79.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Número de ejercicios por circuito:" wrappingWidth="405.41405975818634" />
+      <Text fx:id="numeroCircuitos" layoutX="57.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Número de repeticiones del circuito:" wrappingWidth="405.41405975818634" />
+      <Text fx:id="tEjercicio" layoutX="178.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo por ejercicio:" wrappingWidth="405.41406869888306" />
+      <Text fx:id="tDescansoE" layoutX="53.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de descanso entre ejercicios:" wrappingWidth="405.41406869888306" />
+      <Text fx:id="tDescansoC" layoutX="60.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de descanso entre circuitos:" wrappingWidth="405.41406869888306" />
+      <Text fx:id="tCalentamiento" layoutX="137.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="formulario" text="Tiempo de calentamiento:" wrappingWidth="405.4140625" />
+      <Text fx:id="titulo" layoutX="40.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulos" text="Sesión tipo: " wrappingWidth="486.115234375" AnchorPane.leftAnchor="40.0" />
+      <Button fx:id="cancelar" layoutX="485.0" layoutY="435.0" mnemonicParsing="false" onAction="#Cancelar" styleClass="grupo" text="Cancelar" />
+   </children>
+</AnchorPane>
